@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+}
+
+#pass {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(155, 214, 214);
+    font-size: 20px;
+}
+
+.copy {
+    margin-left: 20px;
+    height: 40px;
+    width: 60px;
+    font-size: 18px;
+    color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.condition {
+    margin-top: 10px;
+}
+
+#gene-pass {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#length {
+    margin-top: 12px;
+}
+
+#ok {
+    margin: 10px;
+    width: 50px;
+    height: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+#passFor {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    margin: 3px;
+}
+
+#hello {
+    width: 45%;
+    padding: 10px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    margin: 3px;
+}
+#from-above {
+    display: inline-block;
+    padding: 10px;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+#addPass {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #6200ea;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#pass-list li {
+    background-color: #333333;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pass-con">
+        <h1>Password Generator</h1>
+        <input type="text" id="pass" />
+        <button class="copy">copy</button>
+      </div>
+      <div class="condition">
+        <input type="range" min="6" max="50" value="8" id="length" />
+        <label for="length" id="label-length">length : 8 </label>
+
+        <input type="checkbox" id="numberInput" />
+        <label for="numberInput">Number</label>
+
+        <input type="checkbox" id="charInput" />
+        <label for="charInput">Charcter</label>
+      </div>
+      <button id="gene-pass">Generate Password</button>
+
+      <div class="tracker">
+        <h2 style="text-align: center">Track your Password</h2>
+        <div id="enter-pass">
+          <div>
+            <span>Enter the Password</span>
+            <input type="text" id="passCheck" />
+          </div>
+          <button id="ok">Ok</button>
+        </div>
+        <div id="last">
+          <div>
+            <form id="passTrack">
+              <input type="text" id="passFor" placeholder="Password For" />
+              <input type="text" id="hello" placeholder="Enter Password" />
+              <button id="from-above">From Above</button>
+              <button id="addPass" type="submit">Add Password</button>
+            </form>
+          </div>
+          <h3>Password List</h3>
+          <ul id="pass-list"></ul>
+          <button class="close">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
